@@ -1,117 +1,120 @@
 export const metadata = {
   title: "Terms & Conditions | TravelProofs",
   description:
-    "Review the Terms & Conditions governing the use of TravelProofs.com and its visa document preparation services.",
+    "Read the Terms of Service for using the TravelProofs - Travel Planner app and website.",
 };
 
 const sections = [
   {
-    heading: "1. Service Description",
+    heading: "1. Use of the App",
     paragraphs: [
-      "TravelProofs.com provides software tools that allow users to generate cover letters, itineraries, and related supporting documents for visa applications.",
-      "TravelProofs.com does not offer visa approvals, appointments, or government services. The final decision to issue or refuse a visa resides exclusively with the relevant embassy or consulate.",
+      "TravelProofs - Travel Planner is provided by TravelProofs Ltd for your personal, non-commercial use.",
+      "You agree to use the App and Website only for lawful purposes and in line with these terms.",
     ],
   },
   {
     heading: "2. Eligibility",
     paragraphs: [
-      "You must be at least 18 years old and have the legal capacity to enter into these Terms to use our services.",
-      "By creating an account or purchasing a subscription, you represent that the information you provide is accurate, complete, and current.",
+      "You must be old enough to enter into a contract in your country (at least 16 years in most places).",
+      "By using the App, you confirm that the information you provide is accurate and that you have the right to use it.",
     ],
   },
   {
-    heading: "3. Use of Service",
+    heading: "3. Accounts and Security",
     paragraphs: [
-      "You agree to use TravelProofs.com only for lawful purposes and in compliance with all applicable laws and regulations.",
-      "You are responsible for maintaining the confidentiality of your account credentials and for all activity conducted through your account.",
-      "You agree not to reverse engineer, modify, or interfere with the operation of the platform, nor upload content that infringes upon third-party rights.",
+      "If you create an account or log in with a third-party service, you are responsible for keeping your login details safe.",
+      "You are responsible for all activity that happens under your account.",
     ],
   },
   {
-    heading: "4. Payments & Subscriptions",
+    heading: "4. No In-App Purchases or Subscriptions",
     paragraphs: [
-      "All payments are processed securely via Stripe. By purchasing a plan, you authorize us to charge the payment method provided for recurring subscription fees until the plan is cancelled.",
-      "Subscription fees are non-transferable. Access to paid features continues until the end of the billing period in which you cancel.",
-      "We may update plan pricing or features. Any changes will be communicated in advance, and continued use after the effective date constitutes acceptance.",
+      "The current version of the App does not offer in-app purchases, paid subscriptions, or other paid features.",
+      "If this changes in the future, we will clearly explain the price, terms, and refund rules before you pay.",
     ],
   },
   {
     heading: "5. Intellectual Property",
     paragraphs: [
-      "All website content, templates, branding, and software tools are the property of TravelProofs.com and are protected by intellectual property laws.",
-      "You may use generated documents for your internal visa application purposes only. Any unauthorized resale, redistribution, or public sharing is prohibited.",
+      "All text, design, and other materials in the App and Website (excluding your own content) belong to TravelProofs Ltd or our licensors.",
+      "You do not gain any ownership rights by using the App or Website.",
     ],
   },
   {
-    heading: "6. Confidentiality & Data Protection",
+    heading: "6. User Content",
     paragraphs: [
-      "We implement technical and organizational safeguards designed to protect personal and travel information. Additional details are available in our Privacy Policy.",
-      "You are responsible for ensuring that any personal data you submit has been collected lawfully and that you have the necessary rights to provide it to us.",
+      "If you share content or information through the App, you are responsible for making sure it is lawful and does not infringe the rights of others.",
+      "We may remove content or restrict access if we reasonably believe it breaks the law or these terms.",
     ],
   },
   {
-    heading: "7. Limitation of Liability",
+    heading: "7. Third-Party Services",
     paragraphs: [
-      "TravelProofs.com provides document preparation assistance only and does not guarantee visa outcomes. To the fullest extent permitted by law, we are not liable for indirect, incidental, or consequential damages resulting from the use of our services.",
-      "Our total liability for any claim arising from these Terms will not exceed the amount paid by you to TravelProofs.com in the twelve (12) months preceding the event giving rise to the claim.",
+      "The App and Website may use third-party services (for example, sign-in, analytics, or maps). Their own terms and privacy policies apply in addition to these terms.",
     ],
   },
   {
-    heading: "8. Termination",
+    heading: "8. Disclaimer",
     paragraphs: [
-      "We may suspend or terminate access to the platform if you violate these Terms or engage in fraudulent, abusive, or unlawful activity.",
-      "You may terminate your subscription at any time through your account settings. Upon termination, you remain responsible for fees incurred before the effective termination date.",
+      "The App and Website are provided \"as is\" and \"as available\". We do not promise that they will always be error-free or uninterrupted.",
     ],
   },
   {
-    heading: "9. Modifications",
+    heading: "9. Limitation of Liability",
     paragraphs: [
-      "We may update these Terms periodically to reflect changes in our services, operations, or applicable laws.",
-      "If we make material changes, we will provide notice via email or in-app notifications. Continued use of the platform after updates take effect constitutes acceptance of the revised Terms.",
+      "To the extent allowed by law, we are not liable for indirect or consequential losses, or for loss of data or profits, arising from your use of the App or Website.",
     ],
   },
   {
-    heading: "10. Contact",
+    heading: "10. Changes and Contact",
     paragraphs: [
-      "For any questions regarding these Terms, email us at support@travelproofs.com.",
-      "TravelProofs.com is operated by TravelProofs Inc., a software services provider registered in the United States.",
+      "We may update these terms from time to time. We will post the latest version in the App or on the Website.",
+      "If you have questions, contact TravelProofs Ltd at info@travelproofs.com.",
     ],
   },
 ];
 
 export default function TermsPage() {
   return (
-    <section className="custom-mx space-y-10 py-24">
-      <div className="space-y-4">
-        <span className="inline-flex items-center rounded-full bg-blue-50 px-4 py-1 text-sm font-medium text-blue-600">
-          Terms & Conditions
-        </span>
-        <h1 className="text-4xl font-semibold text-slate-900">
-          TravelProofs.com Terms & Conditions
+    <section className="custom-mx py-16">
+      <header className="max-w-3xl space-y-3">
+        <p className="text-sm font-medium text-slate-600">Terms of Service</p>
+        <h1 className="text-3xl font-semibold tracking-tight text-slate-900">
+          TravelProofs - Travel Planner
         </h1>
-        <p className="text-base text-slate-600">Last updated: November 2025</p>
-        <p className="max-w-3xl text-lg leading-8 text-slate-600">
-          Welcome to TravelProofs.com. These Terms & Conditions govern your use
-          of our website and services. By accessing or using TravelProofs.com,
-          you agree to comply with these terms.
+        <p className="text-sm text-slate-600">Last updated: March 17, 2026</p>
+        <p className="text-base leading-7 text-slate-700">
+          These terms explain how you may use the TravelProofs - Travel Planner
+          app and website.
         </p>
-      </div>
+        <div className="space-y-1 text-sm leading-6 text-slate-700">
+          <p className="font-medium text-slate-900">Company details</p>
+          <p>TravelProofs Ltd</p>
+          <p>
+            Suite10 Capital House, 61 Amhurst Road, London, United Kingdom, E8
+            1LL
+          </p>
+          <p>
+            Email:{" "}
+            <a className="underline" href="mailto:info@travelproofs.com">
+              info@travelproofs.com
+            </a>
+          </p>
+        </div>
+      </header>
 
-      <div className="space-y-8">
+      <div className="mt-10 max-w-3xl divide-y divide-slate-200 border-y border-slate-200">
         {sections.map((section) => (
-          <article
-            key={section.heading}
-            className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm"
-          >
-            <h2 className="text-2xl font-semibold text-slate-900">
+          <section key={section.heading} className="py-6">
+            <h2 className="text-base font-semibold text-slate-900">
               {section.heading}
             </h2>
-            <div className="mt-4 space-y-4 text-base leading-7 text-slate-600">
+            <div className="mt-3 space-y-2 text-sm leading-6 text-slate-700">
               {section.paragraphs.map((paragraph) => (
                 <p key={paragraph}>{paragraph}</p>
               ))}
             </div>
-          </article>
+          </section>
         ))}
       </div>
     </section>

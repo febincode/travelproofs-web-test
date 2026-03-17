@@ -1,116 +1,111 @@
 export const metadata = {
   title: "Privacy Policy | TravelProofs",
   description:
-    "Understand how TravelProofs.com collects, uses, and protects personal data for visa document preparation.",
+    "Learn how TravelProofs - Travel Planner collects, uses, and protects personal information.",
 };
 
 const privacySections = [
   {
     heading: "1. Information We Collect",
     body: [
-      "Personal information that you provide directly, such as name, email address, company name, and payment details.",
-      "Travel data that you supply when completing document prompts, including itineraries, accommodation details, and supporting notes.",
-      "Usage data automatically collected when you interact with our platform, including IP address, browser type, device identifiers, and activity logs.",
+      "Information you provide: name, email address, and other details you choose to share when you contact us or use the App.",
+      "Technical data: device information, app version, IP address, and basic usage data (for example, screens visited and errors).",
     ],
   },
   {
-    heading: "2. How We Use Your Information",
+    heading: "2. How We Use Information",
     body: [
-      "To operate, maintain, and improve the TravelProofs platform and services.",
-      "To process payments securely through Stripe and manage subscription billing.",
-      "To communicate with you regarding onboarding, product updates, security alerts, support, and marketing (where permitted).",
-      "To analyze platform performance and enhance user experience through aggregated insights.",
+      "Operate and improve the App and Website.",
+      "Provide support and respond to your requests.",
+      "Keep the App secure and reliable.",
     ],
   },
   {
-    heading: "3. Data Security & Retention",
+    heading: "3. Sharing Information",
     body: [
-      "We use encryption, access controls, and secure infrastructure to protect personal data in transit and at rest.",
-      "Document data is retained for as long as you maintain an active account or as required to meet legal and contractual obligations. You may request deletion of specific documents at any time.",
-      "Payment information is handled exclusively by trusted processors like Stripe; TravelProofs does not store full payment card details.",
+      "We may share information with trusted service providers who help us run the App (for example, hosting and analytics). They must keep your data secure and use it only for our purposes.",
+      "We may share information if required by law or to protect our rights.",
+      "We do not sell your personal data.",
     ],
   },
   {
-    heading: "4. Cookies & Tracking Technologies",
+    heading: "4. Data Retention and Security",
     body: [
-      "We use cookies and similar technologies to remember preferences, secure sessions, and understand how visitors interact with the site.",
-      "You can manage cookie preferences through your browser settings. Disabling cookies may limit certain features of the platform.",
+      "We keep personal data only as long as needed for the purposes above or as required by law.",
+      "We use reasonable technical and organisational measures to protect your data, but no system is completely secure.",
     ],
   },
   {
-    heading: "5. Third-Party Services & Data Sharing",
+    heading: "5. Children",
     body: [
-      "We share data with service providers who support payment processing, analytics, email delivery, and customer support—all of whom are contractually bound to protect your information.",
-      "We may disclose information if required by law, legal process, or governmental request, or to protect the rights, property, or safety of TravelProofs or our users.",
-      "We do not sell personal data or share it with third parties for their independent marketing purposes.",
+      "The App is not intended for children under 16 and we do not knowingly collect data from them. If you believe a child has provided data, please contact us and we will delete it.",
     ],
   },
   {
-    heading: "6. International Data Transfers",
+    heading: "6. Your Rights",
     body: [
-      "TravelProofs operates internationally. Where data is transferred across borders, we implement appropriate safeguards such as Standard Contractual Clauses to ensure lawful processing.",
-      "You consent to the transfer of your information to the United States or other jurisdictions where our service providers operate, subject to applicable laws.",
+      "You may ask to access, correct, or delete your personal data, or to limit how we use it, as allowed by law. Contact us at info@travelproofs.com to make a request.",
     ],
   },
   {
-    heading: "7. Your Rights & Choices",
+    heading: "7. Changes to This Policy",
     body: [
-      "You can request access to your personal data, ask for corrections, or request deletion where legally permissible by contacting support@travelproofs.com.",
-      "You may opt out of marketing communications by using the unsubscribe link in our emails or contacting us directly.",
-      "If you are located in the European Economic Area or the United Kingdom, you may have additional rights under GDPR, including data portability and the right to lodge a complaint with a supervisory authority.",
+      "We may update this Privacy Policy from time to time. We will post the latest version in the App or on the Website.",
     ],
   },
   {
-    heading: "8. Updates to This Policy",
+    heading: "8. Contact",
     body: [
-      "We may update this Privacy Policy to reflect changes in our practices, services, or legal requirements. When we make material updates, we will notify you via email or in-app notice.",
-      "The updated policy becomes effective once posted. Continued use of the platform indicates acceptance of the revised policy.",
-    ],
-  },
-  {
-    heading: "9. Contact",
-    body: [
-      "If you have questions about our Privacy Policy or data practices, contact: support@travelproofs.com.",
-      "TravelProofs Inc. · 1200 TravelProofs Way · Austin, TX 73301 · United States",
+      "TravelProofs Ltd, Suite10 Capital House, 61 Amhurst Road, London, United Kingdom, E8 1LL",
+      "Email: info@travelproofs.com",
     ],
   },
 ];
 
 export default function PrivacyPage() {
   return (
-    <section className="custom-mx space-y-10 py-24">
-      <div className="space-y-4">
-        <span className="inline-flex items-center rounded-full bg-blue-50 px-4 py-1 text-sm font-medium text-blue-600">
-          Privacy Policy
-        </span>
-        <h1 className="text-4xl font-semibold text-slate-900">
-          TravelProofs.com Privacy Policy
+    <section className="custom-mx py-16">
+      <header className="max-w-3xl space-y-3">
+        <p className="text-sm font-medium text-slate-600">Privacy Policy</p>
+        <h1 className="text-3xl font-semibold tracking-tight text-slate-900">
+          TravelProofs - Travel Planner
         </h1>
-        <p className="text-base text-slate-600">Last updated: November 2025</p>
-        <p className="max-w-3xl text-lg leading-8 text-slate-600">
-          At TravelProofs.com, we value your privacy. This policy outlines how we
-          collect, use, and protect your personal data.
+        <p className="text-sm text-slate-600">Last updated: March 17, 2026</p>
+        <p className="text-base leading-7 text-slate-700">
+          This Policy describes how TravelProofs Ltd collects, uses, and protects
+          personal information when you use our App and Website.
         </p>
-      </div>
+        <div className="space-y-1 text-sm leading-6 text-slate-700">
+          <p className="font-medium text-slate-900">Company details</p>
+          <p>TravelProofs Ltd</p>
+          <p>
+            Suite10 Capital House, 61 Amhurst Road, London, United Kingdom, E8
+            1LL
+          </p>
+          <p>
+            Email:{" "}
+            <a className="underline" href="mailto:info@travelproofs.com">
+              info@travelproofs.com
+            </a>
+          </p>
+        </div>
+      </header>
 
-      <div className="space-y-8">
+      <div className="mt-10 max-w-3xl divide-y divide-slate-200 border-y border-slate-200">
         {privacySections.map((section) => (
-          <article
-            key={section.heading}
-            className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm"
-          >
-            <h2 className="text-2xl font-semibold text-slate-900">
+          <section key={section.heading} className="py-6">
+            <h2 className="text-base font-semibold text-slate-900">
               {section.heading}
             </h2>
-            <ul className="mt-4 space-y-3 text-base leading-7 text-slate-600">
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-slate-700">
               {section.body.map((item) => (
-                <li key={item} className="flex items-start gap-3">
-                  <span className="mt-1 inline-flex h-2.5 w-2.5 flex-none rounded-full bg-blue-600" />
+                <li key={item} className="pl-4">
+                  <span className="-ml-4 mr-2 text-slate-400">-</span>
                   {item}
                 </li>
               ))}
             </ul>
-          </article>
+          </section>
         ))}
       </div>
     </section>
